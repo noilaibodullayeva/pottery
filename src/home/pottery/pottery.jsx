@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box, Divider, Typography } from '@mui/material'
 import React from 'react'
 import Mug from "./mug.jpg"
 import Plate from "./plate.jpg"
@@ -36,7 +36,9 @@ function Pottery() {
                         </Typography>
                     </Box>
                 </Box>
+                <Divider  sx={{color: '#DBDBE0'}} />
             </Box>
+
         </Box>
     )
 }
@@ -64,7 +66,7 @@ const styles = {
         gap:'60px'
     },
     hand: {
-        color: '',
+        color: '#DBDBE0',
         letterSpacing: '1px',
         textTransform: 'uppercase',
         alignItems: 'center',
@@ -115,7 +117,8 @@ const styles = {
         display:'flex',
         flexDirection:{md:'row', xs:'column'},
         alignItems:'center',
-        justifyContent:'space-between'
+        justifyContent:'space-between',
+        padding: {md: '20px 50px'}
     },
     Box3Words:{
         display:'flex',
@@ -138,6 +141,6 @@ const styles = {
         marginTop: '20px',
         lineHeight: '24px',
         // width:'',
-        padding:'10px 30px 10px 0'
+        padding:'5px 30px 10px 0'
     }
 }
