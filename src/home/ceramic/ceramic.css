@@ -1,0 +1,15 @@
+.imgCeramic {
+    width: 200px;
+    height: 400px; 
+    padding-top: 160px;
+    
+}
+
+@media (max-width: 550px) {
+    .imgCeramic {
+        width: 150px;
+        height: 300px; 
+        padding-top: 0 ;
+        
+    }  
+}
