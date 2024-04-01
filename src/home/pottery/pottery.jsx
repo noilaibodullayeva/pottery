@@ -50,11 +50,13 @@ const styles = {
         width: '100%',
         display: 'flex',
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'center',
+        // padding:' 0 100px'
     },
     BoxpotteryWord: {
-        width: '10%',
-
+        width: '5%',
+        // marginLeft:'200px'
     },
     dishespottery: {
         mt:'40px',
@@ -76,8 +78,8 @@ const styles = {
         lineHeight: '34px',
         display: {md:'inline-block', xs: 'none'},
         position: 'absolute',
-        top: '150%',
-        left: '0%',
+        top: '170%',
+        left: '100px',
         transform: 'rotate(-90deg) translate(0, -50%)',
     },
     BoxPottery1: {
@@ -118,7 +120,7 @@ const styles = {
         flexDirection:{md:'row', xs:'column'},
         alignItems:'center',
         justifyContent:'space-between',
-        padding: {md: '20px 50px'}
+        padding: {md: '20px 150px'}
     },
     Box3Words:{
         display:'flex',

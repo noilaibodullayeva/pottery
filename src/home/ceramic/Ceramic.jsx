@@ -22,7 +22,7 @@ function Ceramic() {
                         <Typography sx={styles.linkCeramic}>View Details</Typography>
                     </Box>
                 </Box>
-                <Box sx={styles.BoxCeramic1}>
+                <Box sx={styles.BoxCeramic2}>
                     <Box sx={styles.ceramicWords1}>
                         <Typography sx={styles.gold}>Gold&Black Pottery</Typography>
                         <Typography sx={styles.loremceramic}>
@@ -30,7 +30,7 @@ function Ceramic() {
                         </Typography>
                         <Typography sx={styles.linkCeramic}>View Details</Typography>
                     </Box>
-                    <Box sx={styles.BoxCeramicImage}>
+                    <Box sx={styles.BoxCeramicImage2}>
                         <Box sx={styles.backCeramic}>
                             <img src={Ceramic1} className='imgCeramic' alt="" />
                         </Box>
@@ -62,12 +62,13 @@ const styles = {
         flexDirection: 'column',
         justifyContent: 'space-between',
         alignItems: 'center',
-        gap: '50px',
+        gap: '30px',
         marginTop: '30px',
         width: '90%',
+        margin: {md: '0 100px 0 80px'}
     },
     BoxpotteryWord: {
-        width: '10%',
+        width: '5%',
 
     },
     hand: {
@@ -91,17 +92,31 @@ const styles = {
         justifyContent: 'space-between',
         alignItems: 'center',
         height: '450px',
-        width: '90%'
+        width: '90%',
+    },
+    BoxCeramic2: {
+        display: 'flex',
+        flexDirection: { md: 'row', xs: 'column' },
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        height: '450px',
+        width: '90%',
+        margin: {md: '0 100px 0 300px',}
     },
     BoxCeramicImage: {
         width: { md: '50%', xs: '90%' },
         height: '550px',
-        padding: { md: '30px 30px 30px 100px', xs: '0 20px' },
+        padding: { md: '100px 30px 30px 100px', xs: '0 20px' },
+    },
+    BoxCeramicImage2: {
+        width: { md: '50%', xs: '90%' },
+        height: '550px',
+        padding: { md: '100px 0px 30px 200px', xs: '20px 20px' },
     },
     backCeramic: {
         backgroundColor: '#F5F5F5',
-        width: { md: '450px', xs: '100%' },
-        height: '180px',
+        width: { md: '350px', xs: '100%' },
+        height: '100px',
         justifyContent: 'center',
         alignItems: 'center',
         display: 'flex',
@@ -114,7 +129,7 @@ const styles = {
         gap: '10px',
         width: { md: '50%', xs: '100%' },
         justifyContent:'center',
-        margin: {md: '0 0 15% 0', xs: '50px 0 15% 30px'}
+        margin: {md: '0 0 15% 0', xs: '100px 0 15% 30px'}
     },
     ceramicWords1: {
         display: 'flex',
@@ -134,11 +149,11 @@ const styles = {
     },
     loremceramic: {
         color: '#777',
-        fontSize: '18px',
+        fontSize: '16px',
         fontFamily: 'Poppins, sans-serif',
         pb: '25px',
         textAlign: 'left',
-        width: { md: '600px', xs: '100%' }
+        width: { md: '500px', xs: '100%' }
     },
     linkCeramic: {
         color: '#777',

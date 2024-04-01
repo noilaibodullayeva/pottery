@@ -145,7 +145,7 @@ const styles = {
         display: { md: 'inline-block', xs: 'none' },
         position: 'absolute',
         top: '450%',
-        left: '0%',
+        left: '100px',
         transform: 'rotate(-90deg) translate(0, -50%)',
     },
     store: {
@@ -187,7 +187,8 @@ const styles = {
     cardsStore: {
         display: 'grid',
         gridTemplateColumns: {md:'auto auto auto', xs: 'auto'},
-        gap: '25px'
+        gap: '25px',
+        pr:{md:'60px'}
     },
     decor: {
         fontSize: '18px',
@@ -205,7 +206,7 @@ const styles = {
         textAlign:'left'
     },
     cardsStoreOnline: {
-        width: '380px',
+        width: '340px',
         '&:hover': {
             borderBottom: '1px solid red'
         },
@@ -215,8 +216,9 @@ const styles = {
         height: '490px',
         transition: 'all 0.3s',
         overflow: 'hidden',
+        
         '&:hover': {
-            transform: 'scale(1.1)',
+            transform: 'scale(1.1)',display:'flex',
         },
     },
     StoreButton: {

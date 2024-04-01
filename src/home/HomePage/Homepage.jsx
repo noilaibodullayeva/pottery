@@ -38,13 +38,12 @@ const styles = {
         paddingTop: { md: '5%', xs: '30%' },
         display: 'flex',
         flexDirection: { md: 'row', xs: 'column' },
-        alignItems: 'center'
     },
     wordsHomepage: {
         width: { md: '40%', xs: '90%' },
         display: 'flex',
         flexDirection: 'column',
-        margin: { md: '0 100px', xs: '0 40px' },
+        margin: { md: '0 0px 0 200px', xs: '0 40px' },
     },
     pompeo: {
         color: '#D87979',
@@ -94,7 +93,7 @@ const styles = {
     imgBoxHomepage: {
         width: { md: '60%', xs: '90%' },
         height: '600px',
-        padding: { md: '0 100px', xs: '0 20px' }
+        padding: { md: '0 200px 0 0', xs: '0 20px' }
     },
     Homepageimagebox: {
         width: '100%',
