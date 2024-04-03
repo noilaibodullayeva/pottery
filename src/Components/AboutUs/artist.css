@@ -1,0 +1,22 @@
+.imgArtist {
+    border-radius: 50%;
+    align-content: center;
+    width: 120px;
+    height: 120px;
+}
+
+.missionImg {
+    align-content: center;
+    width: 250px;
+    height: 450px;
+    margin-top: -50px;
+    margin-left: 50%;
+}
+.different-font {
+    color: #AC1313;
+    font-family: Playfair Display, sans-serif;
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 68px;
+    position: relative;
+}

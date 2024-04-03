@@ -213,12 +213,14 @@ const styles = {
         height: '600px'
     },
     cardMediaImg: {
+        width: '340px',
         height: '490px',
         transition: 'all 0.3s',
         overflow: 'hidden',
-        
+        display:'flex',
         '&:hover': {
-            transform: 'scale(1.1)',display:'flex',
+            transform: 'scale(1.1)',
+            height: '490px',
         },
     },
     StoreButton: {

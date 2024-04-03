@@ -7,6 +7,7 @@ import OnlineStore from './home/online/OnlineStore';
 import StartShopping from './home/Startshopping/StartShopping';
 import News from './home/news/News';
 import Footer from './home/footer/Footer';
+import AboutCoponent from './Components/AboutUs/aboutCoponent';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <OnlineStore />
       <StartShopping />
       <News />
-      <Footer/>
+      <Footer />
+      {/* <AboutCoponent/> */}
     </div>
   );
 }

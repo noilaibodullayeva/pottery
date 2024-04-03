@@ -1,10 +1,30 @@
 import { AppBar, Button, Tab, Tabs, Toolbar, Typography, useMediaQuery, useTheme } from "@mui/material";
 import React, { useState } from "react";
-import { ShoppingCartRounded } from "@mui/icons-material";
-import DrawerComp from "./Drawercomponent";
 import Drawercomponent from "./Drawercomponent";
+import { Link } from 'react-router-dom';
 
-const Pages = ["HOME", "ABOUT", "SHOP", "CONTACT", "Cart"]
+const Pages = [
+    {
+        name: "HOME",
+        link: '/',
+    },
+    {
+        name: "ABOUT",
+        link: '/about'
+    },
+    {
+        name: "SHOP",
+        link: '/',
+    },
+    {
+        name: "CONTACT",
+        link: '/',
+    },
+    {
+        name: "Cart",
+        link: '/',
+    },
+]
 
 function Header() {
 
@@ -35,13 +55,12 @@ function Header() {
                                     indicatorColor="secondary">
                                     {
                                         Pages.map((page, index) => (
-                                            <Tab key={index} label={page} />
+                                            <Link to={`${page.link}`}>
+                                                <Tab key={index} label={page?.name} />
+                                            </Link>
+
                                         ))
                                     }
-                                    {/* <Tab label='Products' />
-                                    <Tab label='Services' />
-                                    <Tab label='ContactUs' />
-                                    <Tab label='AboutUs' /> */}
                                 </Tabs>
                             </>
                         )

@@ -52,11 +52,9 @@ const styles = {
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
-        // padding:' 0 100px'
     },
     BoxpotteryWord: {
         width: '5%',
-        // marginLeft:'200px'
     },
     dishespottery: {
         mt:'40px',

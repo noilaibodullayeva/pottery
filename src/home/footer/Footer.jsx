@@ -10,7 +10,8 @@ function Footer() {
     <Box sx={{
       textAlign: 'center',
       height: '400px',
-      mt: '10%'
+      mt: '10%',
+      width:'100%'
     }}>
       <Typography sx={styles.logoo}>
         <h3 class="heading">Pompeo</h3>
@@ -40,9 +41,10 @@ function Footer() {
         backgroundColor: '#F7F7F7',
         color: '#777',
         textAlign: 'center',
-        height: '100px',
+        height: '50px',
         alignItems: 'center',
-        padding: '40px 0'
+        padding: '40px 0',
+        width:'100%'
       }}>
         <Typography>Template design by <a href="#" className='hreff'>Dorian Hoxha</a> - <a href="#" className='hreff'>Image License Info</a> Powered by <a href="#" className='hreff'>Webflow</a></Typography>
       </Box>
