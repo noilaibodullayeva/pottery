@@ -1,7 +1,8 @@
-import { AppBar, Button, Tab, Tabs, Toolbar, Typography, useMediaQuery, useTheme } from "@mui/material";
+import { AppBar, Tab, Tabs, Toolbar, Typography, useMediaQuery, useTheme } from "@mui/material";
 import React, { useState } from "react";
 import Drawercomponent from "./Drawercomponent";
 import { Link } from 'react-router-dom';
+import AboutCoponent from "../../Components/AboutUs/aboutCoponent"
 
 const Pages = [
     {
@@ -10,7 +11,7 @@ const Pages = [
     },
     {
         name: "ABOUT",
-        link: '/about'
+        link: '/AboutCoponent'
     },
     {
         name: "SHOP",

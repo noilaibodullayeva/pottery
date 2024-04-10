@@ -17,11 +17,11 @@ function News() {
 
             <Typography sx={styles.pompeo}>LATEST NEWS</Typography>
             <Typography sx={styles.unique}>Latest news <span className='different-font'>&</span> New updates </Typography>
-            <FormControl variant="outlined" sx={{ display: 'flex', flexDirection: 'row', mt: '30px', textAlign: 'center', ml: { md: '33%', xs: '10px' }, mr: { md: 0, xs: '10px' } }}>
+            <FormControl variant="outlined" sx={{ display: 'flex', flexDirection: 'row', mt: '30px', textAlign: 'center', ml: { md: '30%', xs: '10px' }, mr: { md: 0, xs: '10px' } }}>
                 <Input
                     variant="outlined"
                     placeholder='Enter your email'
-                    sx={{ width: '420px', }}
+                    sx={{ width: {md:'520px', xs:'80%'}, }}
                     id="input-with-icon-adornment"
                     startAdornment={
                         <InputAdornment position="start">

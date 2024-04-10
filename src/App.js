@@ -8,6 +8,7 @@ import StartShopping from './home/Startshopping/StartShopping';
 import News from './home/news/News';
 import Footer from './home/footer/Footer';
 import AboutCoponent from './Components/AboutUs/aboutCoponent';
+import Shop from './Components/Shop/Shop';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <News />
       <Footer />
       {/* <AboutCoponent/> */}
+      <Shop/>
     </div>
   );
 }
