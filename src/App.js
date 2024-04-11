@@ -22,7 +22,7 @@ function App() {
       <News />
       <Footer />
       {/* <AboutCoponent/> */}
-      <Shop/>
+      {/* <Shop/> */}
     </div>
   );
 }
