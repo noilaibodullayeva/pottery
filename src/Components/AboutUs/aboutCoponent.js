@@ -39,7 +39,7 @@ const styles = {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        width: '100%'
+        width: '100%',
     },
     Aboutt: {
         backgroundImage: `url(${back})`,
@@ -56,14 +56,16 @@ const styles = {
         display: 'flex',
         position: 'relative',
         overflow: 'hidden',
+        mt:'100px'
     },
     wordsAbout: {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'left',
         justifyContent: 'left',
-        padding: { md: '80px 200px', xs: '20px' },
-        width: { md: '500px', xs: '100%' }
+        padding: { md: '100px 200px', xs: '20px' },
+        width: { md: '500px', xs: '100%' },
+        marginTop:'100px'
     },
     aboutUs: {
         fontFamily: 'Poppins, sans-serif',
@@ -71,7 +73,8 @@ const styles = {
         fontWeight: 700,
         color: '#000',
         textAlign: 'left',
-        p: '-20px 0 20px 0'
+        p: '40px 0 20px 0',
+        mt:'100px'
     },
     aboutLorem: {
         fontFamily: 'Poppins, sans-serif',

@@ -9,12 +9,18 @@ import News from './home/news/News';
 import Footer from './home/footer/Footer';
 import AboutCoponent from './Components/AboutUs/aboutCoponent';
 import Shop from './Components/Shop/Shop';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Homepage />
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/about' element={<AboutCoponent />} />
+        <Route path='/shop' element={<Shop />} />
+      </Routes>
+
       <Pottery />
       <Ceramic />
       <OnlineStore />

@@ -2,8 +2,6 @@ import { AppBar, Tab, Tabs, Toolbar, Typography, useMediaQuery, useTheme } from 
 import React, { useState } from "react";
 import Drawercomponent from "./Drawercomponent";
 import { Link } from 'react-router-dom';
-import ABOUT from "../../Components/AboutUs/aboutCoponent"
-import Shop from "../../Components/Shop/Shop"
 
 const Pages = [
     {
@@ -11,11 +9,11 @@ const Pages = [
         link: '/',
     },
     {
-        name: "ABOUT",
+        name: "about",
         link: '/aboutCoponent'
     },
     {
-        name: "Shop",
+        name: "shop",
         link: '/Shop',
     },
     {
