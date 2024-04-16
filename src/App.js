@@ -10,6 +10,7 @@ import Footer from './home/footer/Footer';
 import AboutCoponent from './Components/AboutUs/aboutCoponent';
 import Shop from './Components/Shop/Shop';
 import { Route, Routes } from 'react-router-dom';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<Homepage />} />
         <Route path='/about' element={<AboutCoponent />} />
         <Route path='/shop' element={<Shop />} />
+        <Route path='/Contact' element={<Contact />} />
       </Routes>
 
       <Pottery />
@@ -27,8 +29,6 @@ function App() {
       <StartShopping />
       <News />
       <Footer />
-      {/* <AboutCoponent/> */}
-      {/* <Shop/> */}
     </div>
   );
 }

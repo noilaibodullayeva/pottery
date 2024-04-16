@@ -9,16 +9,16 @@ const Pages = [
         link: '/',
     },
     {
-        name: "about",
+        name: "ABOUT",
         link: '/aboutCoponent'
     },
     {
-        name: "shop",
-        link: '/Shop',
+        name: "SHOP",
+        link: '/shop',
     },
     {
         name: "CONTACT",
-        link: '/',
+        link: '/Contact',
     },
     {
         name: "Cart",
