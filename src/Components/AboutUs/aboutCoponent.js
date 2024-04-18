@@ -22,9 +22,7 @@ function AboutCoponent() {
             <Box>
                 <Pottery />
             </Box>
-            {/* <Box> */}
             <TalantedArtists />
-            {/* </Box> */}
             <Mission />
             <Footer />
         </Box>
@@ -44,28 +42,25 @@ const styles = {
     Aboutt: {
         backgroundImage: `url(${back})`,
         width: '100%',
-        height: '300px',
         backgroundPosition: '0 0, 50% 67%',
         backgroundRepeat: ' repeat, no-repeat',
         backgroundSize: 'auto, cover',
         flexDirection: 'column',
         justifyContent: 'left',
         alignItems: 'left',
-        paddingTop: '200px',
-        paddingBottom: '130px',
+        paddingTop: '100px',
+        paddingBottom: '80px',
         display: 'flex',
         position: 'relative',
         overflow: 'hidden',
-        mt:'100px'
     },
     wordsAbout: {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'left',
         justifyContent: 'left',
-        padding: { md: '100px 200px', xs: '20px' },
+        padding: { md: '90px 200px', xs: '20px' },
         width: { md: '500px', xs: '100%' },
-        marginTop:'100px'
     },
     aboutUs: {
         fontFamily: 'Poppins, sans-serif',
@@ -74,7 +69,6 @@ const styles = {
         color: '#000',
         textAlign: 'left',
         p: '40px 0 20px 0',
-        mt:'100px'
     },
     aboutLorem: {
         fontFamily: 'Poppins, sans-serif',

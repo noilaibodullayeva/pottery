@@ -10,7 +10,7 @@ const Pages = [
     },
     {
         name: "ABOUT",
-        link: '/aboutCoponent'
+        link: '/about'
     },
     {
         name: "SHOP",
