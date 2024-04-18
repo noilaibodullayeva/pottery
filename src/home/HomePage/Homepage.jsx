@@ -6,20 +6,24 @@ import BackHomapageimg from "./back.jpg"
 
 function Homepage() {
     return (
-        <Box sx={styles.BoxFullHomepage}>
-            <Box sx={styles.wordsHomepage}>
-                <Typography sx={styles.pompeo}>POMPEO POTTERY</Typography>
-                <Typography sx={styles.unique}>Unique porcelain <span className='different-font'>&</span> </Typography>
-                <Typography sx={styles.unique}>Stona Collection</Typography>
-                <Typography sx={styles.loremHomepage}>
-                    Unique & modern pottery made by our master in porcelain & stones
-                </Typography>
-                <Button sx={styles.HomepageButton}>SHOP COLLECTION</Button>
+        <Box>
+            <Box sx={styles.BoxFullHomepage}>
+                <Box sx={styles.wordsHomepage}>
+                    <Typography sx={styles.pompeo}>POMPEO POTTERY</Typography>
+                    <Typography sx={styles.unique}>Unique porcelain <span className='different-font'>&</span> </Typography>
+                    <Typography sx={styles.unique}>Stona Collection</Typography>
+                    <Typography sx={styles.loremHomepage}>
+                        Unique & modern pottery made by our master in porcelain & stones
+                    </Typography>
+                    <Button sx={styles.HomepageButton}>SHOP COLLECTION</Button>
+                </Box>
+                <Box sx={styles.imgBoxHomepage}>
+                    <Box sx={styles.Homepageimagebox}></Box>
+                </Box>
             </Box>
-            <Box sx={styles.imgBoxHomepage}>
-                <Box sx={styles.Homepageimagebox}></Box>
-            </Box>
+            
         </Box>
+
     )
 }
 

@@ -1,9 +1,6 @@
 import './App.css';
 import Header from './home/header/header';
 import Homepage from './home/HomePage/Homepage';
-import Pottery from './home/pottery/pottery';
-import Ceramic from './home/ceramic/Ceramic';
-
 import AboutCoponent from './Components/AboutUs/aboutCoponent';
 import Shop from './Components/Shop/Shop';
 import { Route, Routes } from 'react-router-dom';
