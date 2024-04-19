@@ -7,6 +7,7 @@ import Store3 from "./store3.png"
 import Store4 from "./store4.png"
 import Store5 from "./store5.png"
 import Store6 from "./store6.png"
+import Shopping from "../../Components/Shop/Shopping"
 
 function OnlineStore() {
     return (
@@ -21,11 +22,13 @@ function OnlineStore() {
                 </Box>
                 <Box sx={styles.cardsStore}>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={Store1}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={Store1}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Decor Plate
@@ -36,11 +39,13 @@ function OnlineStore() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={Store2}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={Store2}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Mint Pottery
@@ -51,11 +56,13 @@ function OnlineStore() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={Store3}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={Store3}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Set Of Potterys
@@ -66,11 +73,13 @@ function OnlineStore() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={Store4}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={Store4}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Orange Ceramic
@@ -81,11 +90,13 @@ function OnlineStore() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={Store5}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={Store5}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Dark Bowl
@@ -96,11 +107,13 @@ function OnlineStore() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={Store6}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={Store6}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Square pottery
@@ -125,9 +138,9 @@ const styles = {
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: {md:'center', xs: 'left'},
-        mt: {md: 0, xs: '250px'},
-        ml: {md:0, xs: '-30px'}
+        alignItems: { md: 'center', xs: 'left' },
+        mt: { md: 0, xs: '250px' },
+        ml: { md: 0, xs: '-30px' }
     },
     BoxpotteryWord: {
         width: '10%',
@@ -186,16 +199,16 @@ const styles = {
     },
     cardsStore: {
         display: 'grid',
-        gridTemplateColumns: {md:'auto auto auto', xs: 'auto'},
+        gridTemplateColumns: { md: 'auto auto auto', xs: 'auto' },
         gap: '25px',
-        pr:{md:'60px'}
+        pr: { md: '60px' }
     },
     decor: {
         fontSize: '18px',
         color: '#777',
         fontFamily: 'Poppins. sans-serif',
         pt: '10px',
-        textAlign:'left'
+        textAlign: 'left'
     },
     cost: {
         fontSize: '18px',
@@ -203,7 +216,7 @@ const styles = {
         fontFamily: 'Poppins. sans-serif',
         pt: '10px',
         fontWeight: 'bolder',
-        textAlign:'left'
+        textAlign: 'left'
     },
     cardsStoreOnline: {
         width: '340px',
@@ -217,7 +230,7 @@ const styles = {
         height: '490px',
         transition: 'all 0.3s',
         overflow: 'hidden',
-        display:'flex',
+        display: 'flex',
         '&:hover': {
             transform: 'scale(1.1)',
             height: '490px',

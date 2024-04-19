@@ -19,7 +19,9 @@ function AboutCoponent() {
                     </Typography>
                 </Box>
             </Box>
-            <Box>
+            <Box sx={{
+                mt: { md: '100px', xs: '30px' }
+            }}>
                 <Pottery />
             </Box>
             <TalantedArtists />
@@ -40,7 +42,7 @@ const styles = {
         width: '100%',
     },
     Aboutt: {
-        backgroundImage: `url(${back})`,
+        backgroundImage: `linear-gradient(to right, #f8f6f4 30%, transparent),url(${back})`,
         width: '100%',
         backgroundPosition: '0 0, 50% 67%',
         backgroundRepeat: ' repeat, no-repeat',

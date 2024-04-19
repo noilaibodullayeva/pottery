@@ -34,11 +34,13 @@ function Shopping() {
                 </Box>
                 <Box sx={styles.cardsStore}>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop1}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop1}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Decor Plate
@@ -49,11 +51,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop2}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop2}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Mint Pottery
@@ -64,11 +68,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop3}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop3}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Set Of Potterys
@@ -79,11 +85,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop4}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop4}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Orange Ceramic
@@ -94,11 +102,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop5}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop5}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Dark Bowl
@@ -109,11 +119,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop6}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop6}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Square pottery
@@ -124,11 +136,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop7}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop7}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Decor Plate
@@ -139,11 +153,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop8}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop8}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Mint Pottery
@@ -154,11 +170,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop9}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop9}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Set Of Potterys
@@ -169,11 +187,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop10}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop10}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Orange Ceramic
@@ -184,11 +204,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop11}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop11}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Dark Bowl
@@ -199,11 +221,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop12}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop12}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Square pottery
@@ -214,11 +238,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop13}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop13}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Decor Plate
@@ -229,11 +255,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop14}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop14}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Mint Pottery
@@ -244,11 +272,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop15}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop15}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Set Of Potterys
@@ -259,11 +289,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop16}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop16}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Orange Ceramic
@@ -274,11 +306,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop17}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop17}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Dark Bowl
@@ -289,11 +323,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop18}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop18}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Square pottery
@@ -304,11 +340,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop19}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop19}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Dark Bowl
@@ -319,11 +357,13 @@ function Shopping() {
                         </CardContent>
                     </Card>
                     <Card sx={styles.cardsStoreOnline}>
-                        <CardMedia
-                            sx={styles.cardMediaImg}
-                            image={shop20}
-                            title="store 1"
-                        />
+                        <Box sx={{ overflow: 'hidden' }}>
+                            <CardMedia
+                                sx={styles.cardMediaImg}
+                                image={shop20}
+                                title="store 1"
+                            />
+                        </Box>
                         <CardContent>
                             <Typography gutterBottom component="div" sx={styles.decor}>
                                 Square pottery
@@ -354,7 +394,7 @@ const styles = {
     },
     BoxpotteryWord: {
         width: '10%',
-
+        mt: '70px'
     },
     hand: {
         color: '#DBDBE0',
@@ -378,6 +418,7 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         width: '90%',
+        mt: '100px'
     },
     wordsOnline: {
         display: 'flex',

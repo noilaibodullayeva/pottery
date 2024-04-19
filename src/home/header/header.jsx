@@ -48,7 +48,7 @@ function Header() {
                         ) : (
                             <>
                                 <Tabs
-                                    sx={{ marginLeft: 'auto', color: '#222' }}
+                                    sx={{ marginLeft: 'auto', color: '#222 !important' }}
                                     textColor='black'
                                     value={value}
                                     onChange={(e, value) => setValue(value)}

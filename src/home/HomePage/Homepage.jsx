@@ -3,6 +3,7 @@ import React from 'react'
 import Homepagebackimage from "./homepageImg.png"
 import "./homapage.css"
 import BackHomapageimg from "./back.jpg"
+import Umumiy from '../Umumiy'
 
 function Homepage() {
     return (
@@ -21,7 +22,7 @@ function Homepage() {
                     <Box sx={styles.Homepageimagebox}></Box>
                 </Box>
             </Box>
-            
+            <Umumiy/>
         </Box>
 
     )

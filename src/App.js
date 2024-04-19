@@ -5,7 +5,6 @@ import AboutCoponent from './Components/AboutUs/aboutCoponent';
 import Shop from './Components/Shop/Shop';
 import { Route, Routes } from 'react-router-dom';
 import Contact from './Components/Contact/Contact';
-import Umumiy from './home/Umumiy';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path='/shop' element={<Shop />} />
         <Route path='/Contact' element={<Contact />} />
       </Routes>
-      <Umumiy />
 
     </div>
   );
