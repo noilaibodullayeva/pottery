@@ -38,8 +38,6 @@ const styles = {
         flexDirection: 'column',
         justifyContent: 'left',
         alignItems: 'left',
-        // paddingTop: '100px',
-        // paddingBottom: '80px',
         display: 'flex',
         position: 'relative',
         overflow: 'hidden',
@@ -47,7 +45,7 @@ const styles = {
         height: '400px',
     },
     boxContact: {
-        padding: { md: '100px 0 0 200px', xs: '40px' },
+        padding: { md: '100px 0 0 200px', xs: '100px 30px 0 10px' },
         width: { md: '40%', xs: '60%' },
         height: '400px',
     },

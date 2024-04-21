@@ -1,15 +1,12 @@
 import React from 'react'
-import mission1 from "../../home/ceramic/ceramic.png"
-import mission2 from "../../home/ceramic/ceramic2.png"
+import mission1 from '../../../home/ceramic/ceramic.png'
+import mission2 from "../../../home/ceramic/ceramic2.png"
 import { Box, Typography } from '@mui/material'
-import "../AboutUs/artist.css"
+import "../../AboutUs/artist.css"
 
 function Mission() {
     return (
         <Box sx={styles.missoinn}>
-            <Box sx={styles.BoxpotteryWord2}>
-                <Typography sx={styles.hand}>HAND CRAFT POTTERY</Typography>
-            </Box>
             <Box sx={styles.boxMission}>
                 <Box sx={styles.imagesBack}>
                     <Box sx={styles.boxImage} >
@@ -41,26 +38,6 @@ const styles = {
         alignItems: 'center',
 
     },
-    BoxpotteryWord2: {
-        width: '15%',
-        height: '400px',
-        left: '100px',
-        display: { md: 'inline-block', xs: 'none' },
-        border:'1px solid black',
-    },
-    hand: {
-        border:'1px solid black',
-        letterSpacing: '1px',
-        textTransform: 'uppercase',
-        alignItems: 'center',
-        fontFamily: 'Poppins, sans-serif',
-        fontSize: '22px',
-        fontWeight: 300,
-        lineHeight: '34px',
-        display: { md: 'inline-block', xs: 'none' },
-        margin: '100px 0 100px 100px',
-        transform: 'rotate(-90deg) translate(0, -50%)',
-    },
     boxMission: {
         display: 'flex',
         flexDirection: { md: 'row', xs: 'column' },
@@ -72,7 +49,7 @@ const styles = {
         flexDirection: 'column',
         alignitems: 'left',
         gap: '10px',
-        width: { md: '50%', xs: '100%' },
+        width: { md: '50%', xs: '95%' },
         justifyContent: 'center',
         margin: { md: '10% 0 15% 0', xs: '100px 0 15% 30px' }
     },
@@ -89,7 +66,7 @@ const styles = {
         fontFamily: 'Poppins, sans-serif',
         pb: '25px',
         textAlign: 'left',
-        width: { md: '500px', xs: '100%' }
+        width: { md: '500px', xs: '90%' }
     },
     linkCeramic: {
         color: '#777',
@@ -104,7 +81,7 @@ const styles = {
     imagesBack: {
         width: { md: '40%', xs: '100%' },
         mt: { md: '150px', xs: '70px' },
-        ml: { md: '150px', xs: '20px' },
+        ml: { md: '200px', xs: '20px' },
         mb:{md:'0', xs:'70px'}
     },
     boxImage: {

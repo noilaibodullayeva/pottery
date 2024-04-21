@@ -418,7 +418,7 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         width: '90%',
-        mt: '100px'
+        mt: {md:'100px', xs:'0px'}
     },
     wordsOnline: {
         display: 'flex',

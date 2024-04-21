@@ -10,7 +10,7 @@ function Shop() {
             <Box sx={styles.Aboutt}>
                 <Box sx={styles.wordsAbout}>
                     <Typography sx={styles.aboutUs}>
-                        About us
+                    Shop
                     </Typography>
                     <Typography sx={styles.aboutLorem}>
                         The attractions of ceramics lie partly in its contradictions. It is both difficult and easy, with an element beyond our control. It is both extremely fragile and durable. Like 'Sumi' ink painting, it does not lend itself to erasures and indecision.
@@ -47,7 +47,7 @@ const styles = {
     Aboutt: {
         backgroundImage: `url(${back})`,
         width: '100%',
-        height: '200px',
+        height: {md:'300px', xs:'400px'},
         backgroundPosition: '0 0, 50% 67%',
         backgroundRepeat: ' repeat, no-repeat',
         backgroundSize: 'auto, cover',
@@ -71,11 +71,11 @@ const styles = {
     },
     aboutUs: {
         fontFamily: 'Poppins, sans-serif',
-        fontSize: '25px',
+        fontSize: {md:'25px', xs:'35px'},
         fontWeight: 700,
         color: '#000',
         textAlign: 'left',
-        p: '-20px 0 20px 0'
+        p: {md:'-20px 0 20px 0', xs:'90px 0 0 0'}
     },
     aboutLorem: {
         fontFamily: 'Poppins, sans-serif',

@@ -3,8 +3,8 @@ import React from 'react'
 import back from "./backk.jpg"
 import Pottery from '../../home/pottery/pottery'
 import TalantedArtists from './TalantedArtists'
-import Mission from '../mission/Mission'
 import Footer from '../../home/footer/Footer'
+import Mission from './mission/Mission'
 
 function AboutCoponent() {
     return (
@@ -61,8 +61,8 @@ const styles = {
         flexDirection: 'column',
         alignItems: 'left',
         justifyContent: 'left',
-        padding: { md: '90px 200px', xs: '20px' },
-        width: { md: '500px', xs: '100%' },
+        padding: { md: '90px 200px', xs: '10px' },
+        width: { md: '500px', xs: '90%' },
     },
     aboutUs: {
         fontFamily: 'Poppins, sans-serif',
@@ -78,6 +78,7 @@ const styles = {
         fontWeight: 400,
         color: '#6C6C6C',
         textAlign: 'left',
+        width: {md: '50%0', xs:'90%'}
     }
 
 }

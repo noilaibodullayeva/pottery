@@ -49,14 +49,14 @@ function Header() {
                             <>
                                 <Tabs
                                     sx={{ marginLeft: 'auto', color: '#222 !important' }}
-                                    textColor='black'
+                                    textColor='#222'
                                     value={value}
                                     onChange={(e, value) => setValue(value)}
                                     indicatorColor="secondary">
                                     {
                                         Pages.map((page, index) => (
                                             <Link to={`${page.link}`}>
-                                                <Tab key={index} label={page?.name} />
+                                                <Tab key={index} label={page?.name} sx={{color:'#a1a1a1', '&:hover':{color:'#000'}}} />
                                             </Link>
 
                                         ))
