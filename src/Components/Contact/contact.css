@@ -1,0 +1,15 @@
+.textarea {
+    width: 100%;
+    min-height: 170px;
+    /* background-color: rgba(219, 219, 219, .1); */
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    /* border: 1px solid #ebebeb; */
+    margin-bottom: 24px;
+    padding-left: 40px;
+    font-family: Libre Franklin, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+}

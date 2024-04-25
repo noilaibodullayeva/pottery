@@ -1,10 +1,10 @@
-import { Box, FormControl, InputAdornment, TextField, Typography, } from '@mui/material'
+import { Box, Button, FormControl, InputAdornment, TextField, Typography, } from '@mui/material'
 import React from 'react'
 import backfood from '../Contact/tea.jpeg'
 import PersonOutlineSharpIcon from '@mui/icons-material/PersonOutlineSharp';
 import { Email } from '@mui/icons-material';
-// import { TextareaAutosize } from '@mui/base/TextareaAutosize';
-import Textarea from '@mui/joy/Textarea';
+import "./contact.css"
+import Footer from '../../home/footer/Footer';
 
 function Contactus() {
     return (
@@ -75,112 +75,134 @@ function Contactus() {
                 width: '100%'
             }}>
                 <Box sx={{
-                    width:'70%'
-                }}>
-                   <Box sx={{
-                    width: { md: '100%', xs: ' 90%' },
-                    ml: '200px',
-                    height: '180px',
-                    backgroundImage: `url(${backfood})`,
-                    backgroundRepeat: 'no-repeat',
-                    backgroundPosition: '0 51%',
-                    backgroundSize: 'cover',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    marginLeft: 0,
-                    marginRight: 0,
-                    display: 'block',
-                }}>
-                </Box>
-                <Box sx={{
-                    display: 'flex',
-                    flexDirection: 'row',
-                    justifyContent: 'center',
-                    gap: 0,
-                    alignItems: 'center',
-                    // ml: '100px',
-                    backgroundColor: '#fff',
-                    width:'100%'
+                    width: '70%'
                 }}>
                     <Box sx={{
-                        display: 'flex',
-                        backgroundColor: '#fff',
-                        border: '1px solid #E5E3DF',
+                        width: { md: '100%', xs: ' 90%' },
+                        ml: '200px',
+                        height: '180px',
+                        backgroundImage: `url(${backfood})`,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundPosition: '0 51%',
+                        backgroundSize: 'cover',
                         justifyContent: 'center',
                         alignItems: 'center',
-                        // ml: '-185px',
-                        width:'40%'
+                        marginLeft: 0,
+                        marginRight: 0,
+                        display: 'block',
                     }}>
-                        <Box sx={{
-                            backgroundColor: '#E5E3DF',
-                            margin: '50px',
-                            height: '450px',
-                            width: '300px',
-                            cursor: 'pointer',
-
-                        }}>
-
-                        </Box>
                     </Box>
                     <Box sx={{
-                        width:'60%'
+                        display: 'flex',
+                        flexDirection: 'row',
+                        justifyContent: 'center',
+                        gap: 0,
+                        alignItems: 'center',
+                        // ml: '100px',
+                        backgroundColor: '#fff',
+                        width: '100%'
                     }}>
-                        <Typography sx={{
-                            fontSize: '30px',
-                            fontWeight: 600,
-                            m: '10% 0 10% 0',
-                            color: '#222',
-                            fontFamily: 'Poppins, sans-serif'
+                        <Box sx={{
+                            display: { md: 'flex', xs: 'none' },
+                            backgroundColor: '#fff',
+                            border: '1px solid #E5E3DF',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            width: '40%',
+                            flexDirection: { md: 'row', xs: 'column' }
                         }}>
-                            Drop Us a Line
-                        </Typography>
-                        <Box sx={{ '& > :not(style)': { m: 1 } }}>
-                            <FormControl variant="standard">
-                                <TextField
-                                    id="outlined-basic"
-                                    label="Name:"
-                                    variant="outlined"
-                                    defaultValue="Your name"
-                                    startAdornment={
-                                        <InputAdornment position="start">
-                                            <PersonOutlineSharpIcon />
-                                        </InputAdornment>
-                                    } />
-                            </FormControl>
-                            <FormControl>
-                                <TextField
-                                    id="outlined-basic"
-                                    label="Email:"
-                                    variant="outlined"
-                                    defaultValue="Your email"
-                                    startAdornment={
-                                        <InputAdornment position="start">
-                                            <Email />
-                                        </InputAdornment>
-                                    } />
-                            </FormControl>
+                            <Box sx={{
+                                backgroundColor: '#E5E3DF',
+                                margin: '50px',
+                                height: '450px',
+                                width: '300px',
+                                cursor: 'pointer',
+                            }}>
+
+                            </Box>
                         </Box>
-                        <FormControl>
-                            <textarea
-                             sx={{
-                                width: '500px',
-                                // height: '200px',
-                                resize: 'none',
-                                height: '150px',
-                                padding: '12px 20px',
-                                boxSizing:' border-box',
-                            }}
-                            minRows={10}
-                            
-                             />
-                        </FormControl>
+                        <Box sx={{
+                            width: { md: '60%', xs: '100%' }
+                        }}>
+                            <Typography sx={{
+                                fontSize: '30px',
+                                fontWeight: 600,
+                                m: '10% 0 5% 0',
+                                color: '#222',
+                                fontFamily: 'Poppin s, sans-serif'
+                            }}>
+                                Drop Us a Line
+                            </Typography>
+                            <Box sx={{ '& > :not(style)': { m: 1 } }}>
+                                <FormControl variant="standard">
+                                    <TextField
+                                        id="outlined-basic"
+                                        label="Name:"
+                                        variant="outlined"
+                                        defaultValue="Your name"
+                                        sx={{ border: '1px solid #ebebeb', backgroundColor: 'rgba(219, 219, 219, .1)', "&:active": { border: '1px solid #222' } }}
+                                        startAdornment={
+                                            <InputAdornment position="start">
+                                                <PersonOutlineSharpIcon />
+                                            </InputAdornment>
+                                        } />
+                                </FormControl>
+                                <FormControl>
+                                    <TextField
+                                        id="outlined-basic"
+                                        label="Email:"
+                                        variant="outlined"
+                                        defaultValue="Your email"
+                                        sx={{ border: '1px solid #ebebeb' }}
+                                        startAdornment={
+                                            <InputAdornment position="start">
+                                                <Email />
+                                            </InputAdornment>
+                                        } />
+                                </FormControl>
+                            </Box>
+                            <Box sx={{
+                                width: { md: '420px', xs: '90%' }
+                            }}>
+                                <FormControl sx={{
+                                    width: { md: '100%', xs: '90%' },
+                                    ml: { md: '90px' }
+                                }} >
+                                    <label htmlFor="" for="fname" style={{ textAlign: 'left', color: '#3f3f3f', paddingBottom: '10px' }}>Massage</label>
+                                    <textarea
+                                        id='fname'
+                                        name='fname'
+                                        className='textarea'
+                                        startAdornment={
+                                            <InputAdornment position="start">
+                                                <PersonOutlineSharpIcon />
+                                            </InputAdornment>
+                                        }
+                                    />
+                                </FormControl>
+                            </Box>
 
+                            <Button sx={{
+                                padding: '20px 25px',
+                                backgroundColor: '#AC1313',
+                                color: '#fff',
+                                "&:hover": {
+                                    backgroundColor: '#ff5f0f',
+                                    color: '#fff'
+                                },
+                                borderRadius: 0,
+                                textAlign: 'left'
+                            }}>SEND MESSAGE</Button>
 
+                        </Box>
                     </Box>
-                </Box>  
                 </Box>
-               
+
             </Box>
+            <Box sx={{backgroundColor: '#FBFBFB'}}>
+               <Footer sx={{mt:'20px'}} /> 
+            </Box>
+            
         </Box>
     )
 }
