@@ -1,7 +1,8 @@
-import { AppBar, Tab, Tabs, Toolbar, Typography, useMediaQuery, useTheme } from "@mui/material";
+import { AppBar, Box, Button, Drawer, Tab, Tabs, Toolbar, Typography, useMediaQuery, useTheme } from "@mui/material";
 import React, { useState } from "react";
 import Drawercomponent from "./Drawercomponent";
 import { Link } from 'react-router-dom';
+import Drawerr from "./Drawer";
 
 const Pages = [
     {
@@ -20,19 +21,28 @@ const Pages = [
         name: "CONTACT",
         link: '/Contact',
     },
-    {
-        name: "Cart",
-        link: '/',
-    },
+    // {
+    //     name: "Cart",
+    //     link: '/',
+    // },
 ]
 
 function Header() {
 
+    const [openDrawer, setOpenDrawer] = useState(false)
     const [value, setValue] = useState();
     const theme = useTheme();
     console.log(theme);
     const isMatch = useMediaQuery(theme.breakpoints.down("md"));
     console.log(isMatch)
+
+    const [open, setOpen] = React.useState(false);
+
+    const toggleDrawer = (newOpen) => () => {
+        setOpen(newOpen);
+    }
+
+
     return (
         <React.Fragment>
             <AppBar sx={{ backgroundColor: '#fff' }}>
@@ -56,12 +66,19 @@ function Header() {
                                     {
                                         Pages.map((page, index) => (
                                             <Link to={`${page.link}`}>
-                                                <Tab key={index} label={page?.name} sx={{color:'#a1a1a1', '&:hover':{color:'#000'}}} />
+                                                <Tab key={index} label={page?.name} sx={{ color: '#a1a1a1', '&:hover': { color: '#000' } }} />
                                             </Link>
 
                                         ))
                                     }
+                                    <div>
+                                        <Button onClick={toggleDrawer(true)}>Card</Button>
+                                        <Drawer open={open} onClose={toggleDrawer(false)}>
+                                            {Drawerr}
+                                        </Drawer>
+                                    </div>
                                 </Tabs>
+
                             </>
                         )
                     }
