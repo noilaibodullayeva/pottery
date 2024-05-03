@@ -1,4 +1,4 @@
-import { AppBar, Box, Button, Drawer, Tab, Tabs, Toolbar, Typography, useMediaQuery, useTheme } from "@mui/material";
+import { AppBar, Button, Drawer, Tab, Tabs, Toolbar, Typography, useMediaQuery, useTheme } from "@mui/material";
 import React, { useState } from "react";
 import Drawercomponent from "./Drawercomponent";
 import { Link } from 'react-router-dom';
@@ -21,15 +21,10 @@ const Pages = [
         name: "CONTACT",
         link: '/Contact',
     },
-    // {
-    //     name: "Cart",
-    //     link: '/',
-    // },
 ]
 
 function Header() {
 
-    const [openDrawer, setOpenDrawer] = useState(false)
     const [value, setValue] = useState();
     const theme = useTheme();
     console.log(theme);
@@ -72,9 +67,10 @@ function Header() {
                                         ))
                                     }
                                     <div>
-                                        <Button onClick={toggleDrawer(true)}>Card</Button>
+                                        <Button   sx={{ marginLeft: 'auto', color: '#a1a1a1', pt:'11px', '&:hover': { color: '#000' } }}
+                                        onClick={toggleDrawer(true)}>Card</Button>
                                         <Drawer open={open} onClose={toggleDrawer(false)}>
-                                            {Drawerr}
+                                            {Drawerr()}
                                         </Drawer>
                                     </div>
                                 </Tabs>
